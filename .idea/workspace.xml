@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be2cdf26-b20a-4d51-86ae-b13c7a92a9f1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q7oAv3zr30hp7bzW52cyvaDAnE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/vishw/OneDrive/Desktop/CTS/HealthCheckUsingSpringBoot/DemoApplication",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be2cdf26-b20a-4d51-86ae-b13c7a92a9f1" name="Changes" comment="" />
+      <created>1684713842906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684713842906</updated>
+      <workItem from="1684713843714" duration="820000" />
+      <workItem from="1684714981480" duration="114000" />
+      <workItem from="1684773248891" duration="1242000" />
+      <workItem from="1684805578846" duration="455000" />
+      <workItem from="1684893786886" duration="795000" />
+      <workItem from="1684945797148" duration="801000" />
+      <workItem from="1684976919547" duration="421000" />
+      <workItem from="1685018053216" duration="2750000" />
+      <workItem from="1685063394330" duration="226000" />
+      <workItem from="1685063874407" duration="13000" />
+      <workItem from="1685064011912" duration="542000" />
+      <workItem from="1685119056421" duration="607000" />
+      <workItem from="1685148849599" duration="543000" />
+      <workItem from="1685193742945" duration="42000" />
+      <workItem from="1685204940880" duration="872000" />
+      <workItem from="1685206059510" duration="85000" />
+      <workItem from="1685241266906" duration="929000" />
+      <workItem from="1685291315844" duration="612000" />
+      <workItem from="1685295666488" duration="189000" />
+      <workItem from="1685324362639" duration="70000" />
+      <workItem from="1685377769369" duration="2071000" />
+      <workItem from="1685464146841" duration="1144000" />
+      <workItem from="1685495765278" duration="2000" />
+      <workItem from="1685581398287" duration="186000" />
+      <workItem from="1685636739472" duration="960000" />
+      <workItem from="1685669632568" duration="1484000" />
+      <workItem from="1685710937212" duration="42000" />
+      <workItem from="1685723326213" duration="609000" />
+      <workItem from="1685810476212" duration="626000" />
+      <workItem from="1685843030508" duration="502000" />
+      <workItem from="1685893492598" duration="38000" />
+      <workItem from="1686414823766" duration="175000" />
+      <workItem from="1686456716765" duration="819000" />
+      <workItem from="1686489385411" duration="1768000" />
+      <workItem from="1686499519596" duration="468000" />
+      <workItem from="1686500974886" duration="990000" />
+      <workItem from="1686573382116" duration="103000" />
+      <workItem from="1686587831056" duration="7000" />
+      <workItem from="1686614271227" duration="233000" />
+      <workItem from="1686669174389" duration="4142000" />
+      <workItem from="1686703237770" duration="102000" />
+      <workItem from="1686703353332" duration="258000" />
+      <workItem from="1686747046872" duration="27000" />
+      <workItem from="1686760496242" duration="1328000" />
+      <workItem from="1686762565278" duration="2804000" />
+      <workItem from="1686790861344" duration="300000" />
+      <workItem from="1686798663872" duration="12000" />
+      <workItem from="1686799120787" duration="1852000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sample_py$sample.coverage" NAME="sample Coverage Results" MODIFIED="1686803881392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Desktop/Study materials/Study materials/LIL/project" />
+  </component>
+</project>

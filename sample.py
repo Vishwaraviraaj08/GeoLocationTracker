@@ -1,6 +1,7 @@
 import requests
 import webbrowser
 
+
 def display_bing_map(latitude, longitude, zoom, locations):
     api_key = "AlcfAk5eTMkn5lHe9akGI64L4JSaIrrFlTyYlt8Ei2HQE7PPSFeJc5R_BVSDmIRC"
     locations_param = "|".join(locations)
@@ -8,29 +9,30 @@ def display_bing_map(latitude, longitude, zoom, locations):
     webbrowser.open(url)
 
 def get_nearby_hospitals(latitude, longitude, radius):
-    api_key = "AlcfAk5eTMkn5lHe9akGI64L4JSaIrrFlTyYlt8Ei2HQE7PPSFeJc5R_BVSDmIRC"
-    url = f"https://dev.virtualearth.net/REST/v1/LocalSearch/?query=hospital&userCircularMapView={latitude},{longitude},{radius}&key={api_key}"
+    api_key = "<YOUR-API-KEY>"
+    url = f"https://atlas.microsoft.com/search/poi/json?api-version=1.0&query=hospitals&subscription-key={api_key}&lat={latitude}&lon={longitude}&radius={radius}"
     response = requests.get(url)
     data = response.json()
     hospitals = []
     print(data)
 
-    for result in data['resourceSets'][0]['resources']:
+    for result in data['results']:
         hospital = {
-            'name': result['name'],
-            'latitude': result['point']['coordinates'][0],
-            'longitude': result['point']['coordinates'][1]
+            'name': result['poi']['name'],
+            'latitude': result['position']['lat'],
+            'longitude': result['position']['lon'],
+            'distance': result['dist']
         }
         print(hospital)
         hospitals.append(hospital)
-
     return hospitals
 
+
 # Provide the latitude, longitude, and zoom level
-latitude = 37.7749
-longitude = -122.4194
-zoom = 12
-radius = 10
+latitude = 12.9291089
+longitude = 80.1598282
+zoom = 14
+radius = 1000
 
 hospitals = get_nearby_hospitals(latitude, longitude, radius)
 
